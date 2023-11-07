@@ -3,41 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
     <title>Food</title>
 </head>
 <body>
     <div>
-        <img src="./food/a.jpg" width="100%" height="500px">
+        <img style="position: relative;" src="./food/c(3).jpg" width="100%">
+        
+        <div class="logo">
+            <img src="./food/logo.jpg" width="200px" alt="logo">
+        </div>
     </div>
-    <div>
-        <select id="location">
+    <div clas="loc">
+        <select class="location">
             <option disabled selected>Select Location</option>
             <option>Pune</option>
             <option>Mumbai</option>
+            <option>Kolhapur</option>
             <option>Satara</option>
             <option>Amravati</option>
-            <option>Kolhapur</option>
         </select>
-        <label for="food">Enter Restaurants Name :</label>
-        <input id="food" type="text" placeholder="Restaurants Name">
+           <input class="input" type="text" placeholder="Restaurants Name">
     </div>
-    <div>
-        <img src="./food/1.jpg" width="150px" >
+    <div class="quicksearch">
+        <h2>Quick Search</h2>
+        <h3>Discover restaurants by type of meal</h3>
     </div>
-    <div>
-        <img src="./food/2.jpg" width="150px">
-    </div>
-    <div>
-        <img src="./food/3.jpg" width="150px">
-    </div>
-    <div>
-        <img src="./food/4.jpg" width="150px">
-    </div>
-    <div>
-        <img src="./food/5.jpg" width="150px">
-    </div>
-    <div>
-        <img src="./food/6.jpg" width="150px">
-    </div>
+        <div class="box">
+            <img class="box" src="./food/1.jpg" width="150px" >
+            <div class="about">
+                <h4>Breakfast</h4>
+                <p>Search breakfast restaurants near you</p>  
+            </div>
+        </div>
+        <div class="box">
+            <img class="box" src="./food/2.jpg" width="150px">
+            <div class="about">
+                <h4>Lunch</h4>
+                <p>Search Lunch restaurants near you</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box" src="./food/3.jpg" width="150px">
+            <div class="about">
+                <h4>Snacks</h4>
+                <p>Search snacks restaurants near you</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box" src="./food/4.jpg" width="150px">
+            <div class="about">
+                <h4>Dinner</h4>
+                <p>Search dinner restaurants near you</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box" src="./food/5.jpg" width="150px">
+            <div class="about">
+                <h4>Drinks</h4>
+                <p>Search drinks restaurants near you</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box" src="./food/6.jpg" width="150px">
+            <div class="about">
+                <h4>Fastfood</h4>
+                <p>Search fastfood restaurants near you</p>
+            </div>
+        </div>
 </body>
 </html>
